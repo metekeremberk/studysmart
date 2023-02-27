@@ -15,4 +15,8 @@
 	</div>
 </div>
 
-<slot />
+<div class="w-full h-[90vh] bg-background bg-no-repeat bg-cover -z-50">
+	<div class="w-full h-full backdrop-blur-xl backdrop-brightness-95">
+		<slot />
+	</div>
+</div>
